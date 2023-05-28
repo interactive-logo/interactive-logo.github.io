@@ -1,16 +1,8 @@
 {
   "dependencies": {
-    "gh-pages": "^5.0.0",
     "three": "^0.152.2"
   },
   "devDependencies": {
     "vite": "^4.3.9"
-  },
-  "scripts": {
-    "build": "webpack --config ./src/webpack.prod.js",
-    "start": "node ./dist/server/server.js",
-    "dev": "webpack serve --config ./src/webpack.dev.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d ./dist"
   }
 }
